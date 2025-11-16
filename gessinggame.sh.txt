@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+function guessing_game() {
+    local num_files=$(ls -1 | wc -l)
+    local guess=0
+
+    echo "Welcome to the guessing game!"
+    echo "Can you guess how many files are in the current directory?"
+
+    while [[ $guess -ne $num_files ]]; do
+        read -p "Enter your guess: " guess
+
+        if [[ $guess -lt $num_files ]]; then
+            echo "Too low, try again!"
+        elif [[ $guess -gt $num_files ]]; then
+            echo "Too high, try again!"
+        else
+            echo "Congratulations! You guessed correctly!"
+        fi
+    done
+}

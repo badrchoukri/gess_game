@@ -1,0 +1,14 @@
+
+
+README = README.md
+SCRIPT = guessinggame.sh
+TITLE = "Guessing Game Project"
+
+all: $(README)
+
+$(README):
+	echo "# $(TITLE)" > $(README)
+	echo "" >> $(README)
+	echo "Generated on: $$(date)" >> $(README)
+	echo "" >> $(README)
+	echo "Number of lines in $(SCRIPT): $$(wc -l < $(SCRIPT))" >> $(README)
