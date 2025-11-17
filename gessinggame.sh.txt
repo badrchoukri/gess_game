@@ -20,3 +20,4 @@ function guessing_game() {
         fi
     done
 }
+
