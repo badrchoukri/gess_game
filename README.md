@@ -33,8 +33,8 @@ You'll need a Unix-like environment (Linux, macOS, or WSL on Windows) and the `b
 
 ## 🛠️ Built With
 
-Bash - The Bourne Again SHell.
-ls & wc - Standard Unix utilities for directory listing and word/line counting.
+* **Bash** - The Bourne Again SHell.
+* **ls & wc** - Standard Unix utilities for directory listing and word/line counting.
 
 ## 🧠 Logic Preview
 The core engine of the game uses a while loop to keep the game alive until you win:
