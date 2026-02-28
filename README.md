@@ -9,6 +9,8 @@ A lightweight, interactive terminal-based game that challenges you to guess the 
 * **Interactive Feedback:** Tells you if your guess is too high or too low.
 * **Clean Code:** Uses local variables and functions for better script structure.
 
+--- 
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -26,4 +28,20 @@ You'll need a Unix-like environment (Linux, macOS, or WSL on Windows) and the `b
 3. **Play the game**:
 ```bash
 ./guessing_game.sh
+```
+---
+
+## 🛠️ Built With
+
+Bash - The Bourne Again SHell.
+ls & wc - Standard Unix utilities for directory listing and word/line counting.
+
+## 🧠 Logic Preview
+The core engine of the game uses a while loop to keep the game alive until you win:
+
+```bash
+while [[ $guess -ne $num_files ]]; do
+    read -p "Enter your guess: " guess
+    # Logic checks go here...
+done
 ```
