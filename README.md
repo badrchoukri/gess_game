@@ -19,11 +19,11 @@ You'll need a Unix-like environment (Linux, macOS, or WSL on Windows) and the `b
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/guessing-game.git](https://github.com/YOUR_GITHUB_USERNAME/guessing-game.git)
    ```
+2.**Make the script executable**:
    ```bash
    chmod +x guessing_game.sh
    ```
-2. **Play the game**:
-
+3. **Play the game**:
 ```bash
 ./guessing_game.sh
 ```
