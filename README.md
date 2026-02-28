@@ -18,3 +18,12 @@ You'll need a Unix-like environment (Linux, macOS, or WSL on Windows) and the `b
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/guessing-game.git](https://github.com/YOUR_GITHUB_USERNAME/guessing-game.git)
+   ```
+   ```bash
+   chmod +x guessing_game.sh
+   ```
+2. **Play the game**:
+
+```bash
+./guessing_game.sh
+```
